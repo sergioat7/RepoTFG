@@ -1,6 +1,4 @@
-"# RepoTFG" 
-
-###STEPS
+##STEPS
 
 1. Open Cygwin64 and run "curl http://www.inf.uc3m.es/personal > codigoHTML".
 2. Run codigo1 in the same folder where is codigoHTML.
