@@ -18,15 +18,6 @@ int main()
 	char salida[100];
 
 	char sal[]="<?php\n";
-	char postSal[]="echo ";
-	len = strlen(postSal);
-	postSal[len] = '"';
-	postSal[len+1] = (char)92;
-	postSal[len+2] = 'n';
-	postSal[len+3] = '"';
-	postSal[len+4] = ';';
-	postSal[len+5] = '\n';
-	postSal[len+6] = (char)NULL;
 	char sal2[]="?>";
 	
 	fd2 = open("codigoPHP.php",O_WRONLY);
@@ -111,7 +102,6 @@ int main()
 		
 		close(fd1);
 		write(fd2, &salida, strlen(salida));
-		write(fd2, &postSal, strlen(postSal));
 	}
 	
 	write(fd2, &sal2, strlen(sal2));
