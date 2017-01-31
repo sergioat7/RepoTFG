@@ -10,3 +10,4 @@
 
 ##OTHER CODES
 codigo3_toJSON.c has the same funcionality that codigo3.c, but the first one store information in a differente way.
+codigo3_extra has the same funcionality that codigo3.c, but the first one store information in a differente way.
